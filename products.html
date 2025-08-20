@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Products | Twin Roots International</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="logo-mark">TR</span><span class="brand-text">Twin Roots International</span></a>
+      <button class="nav-toggle" aria-label="Open Menu" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+      <nav class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a class="active" href="products.html">Products</a></li>
+          <li><a class="btn btn-small" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero small">
+    <div class="container">
+      <h1 class="animate-up">Products</h1>
+      <p class="lead animate-up delay-1">Sourcing the best of India’s fresh produce & specialties for global markets.</p>
+    </div>
+  </section>
+  
+  <section class="section">
+    <div class="container">
+      <!-- Filters -->
+      <div class="filters animate-fade">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="vegetables">Fresh Vegetables</button>
+        <button class="chip" data-filter="fruits">Fresh Fruits</button>
+        <button class="chip" data-filter="specialities">Indian Specialities</button>
+      </div>
+  
+      <!-- Product Grid -->
+      <div class="grid-3 product-grid">
+        <!-- Fresh Vegetables -->
+        <article class="card product animate-fade" data-category="vegetables">
+          <img src="images/product-onion.jpg" alt="Onion" />
+          <div class="card-body">
+            <h3>Onion</h3>
+            <p>A staple in kitchens worldwide, sourced from India’s finest farms.</p>
+          </div>
+        </article>
+  
+        <article class="card product animate-fade delay-1" data-category="vegetables">
+          <img src="images/product-greenchilli.jpg" alt="Green Chillies" />
+          <div class="card-body">
+            <h3>Green Chillies</h3>
+            <p>Spicy, vibrant, and freshly harvested for authentic flavor.</p>
+          </div>
+        </article>
+  
+        <article class="card product animate-fade delay-2" data-category="vegetables">
+          <img src="images/product-garlic.jpg" alt="Garlic" />
+          <div class="card-body">
+            <h3>Garlic</h3>
+            <p>Bold, aromatic cloves with consistent quality.</p>
+          </div>
+        </article>
+  
+        <article class="card product animate-fade delay-3" data-category="vegetables">
+          <img src="images/product-ginger.jpg" alt="Ginger" />
+          <div class="card-body">
+            <h3>Ginger</h3>
+            <p>Zesty and fresh, perfect for culinary and medicinal use.</p>
+          </div>
+        </article>
+  
+        <!-- Fresh Fruits -->
+        <article class="card product animate-fade" data-category="fruits">
+          <img src="images/product-coconut.jpg" alt="Coconut" />
+          <div class="card-body">
+            <h3>Coconut</h3>
+            <p>Fresh, wholesome, and full of natural goodness.</p>
+          </div>
+        </article>
+  
+        <article class="card product animate-fade delay-1" data-category="fruits">
+          <img src="images/product-banana.jpg" alt="Bananas" />
+          <div class="card-body">
+            <h3>Bananas</h3>
+            <p>Naturally sweet, nutritious, and export-quality.</p>
+          </div>
+        </article>
+  
+        <article class="card product animate-fade delay-2" data-category="fruits">
+          <img src="images/product-pomegranate.jpg" alt="Pomegranate" />
+          <div class="card-body">
+            <h3>Pomegranate</h3>
+            <p>Ruby-red arils, rich in taste and health benefits.</p>
+          </div>
+        </article>
+  
+        <!-- Indian Specialities -->
+        <article class="card product animate-fade" data-category="specialities">
+          <img src="images/product-readytoeat.jpg" alt="Ready-to-Eat Products" />
+          <div class="card-body">
+            <h3>Ready-to-Eat Products</h3>
+            <p>Authentic Indian delicacies, frozen and ready for global kitchens.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container grid-3">
+      <div class="stat animate-up">
+        <div class="stat-number">Expanding with Every Shipment</div>
+        <div class="stat-label">
+          New varieties and categories being added as we grow.
+        </div>
+      </div>
+      <div class="stat animate-up delay-1">
+        <div class="stat-number">Global Standards, Local Roots</div>
+        <div class="stat-label">
+          Combining Indian origin authenticity with world-class handling.
+        </div>
+      </div>
+      <div class="stat animate-up delay-2">
+        <div class="stat-number">From Everyday Staples to Specialities</div>
+        <div class="stat-label">
+          Serving the full spectrum of global food needs.
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Twin Roots International.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

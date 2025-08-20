@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | Twin Roots International</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="logo-mark">TR</span><span class="brand-text">Twin Roots International</span></a>
+      <button class="nav-toggle" aria-label="Open Menu" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+      <nav class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a class="btn btn-small active" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero small">
+    <div class="container">
+      <h1 class="animate-up">Contact Us</h1>
+      <p class="lead animate-up delay-1">Let’s plan your next shipment.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <form class="contact-form animate-fade" netlify>
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@company.com" required />
+        </div>
+        <div class="form-row">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your requirements..." required></textarea>
+        </div>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info animate-fade delay-1">
+        <h3>Reach Us</h3>
+        <p><strong>Email:</strong> hello@twinroots.example</p>
+        <p><strong>Phone:</strong> +91 00000 00000</p>
+        <p><strong>Office:</strong> Pune, Maharashtra</p>
+
+        <div class="map-frame">
+          <!-- Replace with real location/map API key if needed -->
+          <iframe title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://maps.google.com/maps?q=Pune&t=&z=11&ie=UTF8&iwloc=&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Twin Roots International.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
