@@ -156,3 +156,12 @@ input:focus,textarea:focus{outline:none;border-color:var(--brand)}
   .hero .hero-image{width:120vw;height:120vw;bottom:-30%}
   .footer-grid{grid-template-columns:1fr}
 }
+/* iPhone / Safari safe-area fix */
+body {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Footer fix */
+.site-footer {
+  padding-bottom: calc(16px + env(safe-area-inset-bottom));
+
