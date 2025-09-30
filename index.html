@@ -6,14 +6,25 @@
   <title>Twin Roots International | Import–Export</title>
   <meta name="description" content="Twin Roots International — global import–export solutions." />
   <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="images/logo.svg" type="image/svg+xml" />
+  <link rel="icon" href="LOGO.png" type="image/png" />
+
+  <style>
+    /* Logo Styling */
+    .logo-img {
+      height: 60px;
+      width: auto;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  </style>
 </head>
+
 <body>
   <!-- Header / Navbar -->
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html">
-        <span class="logo-mark">TR</span>
+        <img src="LOGO.png" alt="Twin Roots International Logo" class="logo-img" />
         <span class="brand-text">Twin Roots International</span>
       </a>
 
@@ -40,10 +51,10 @@
       <h1 class="animate-up">Global Import–Export, <span class="highlight">Done Right</span>.</h1>
       <p class="lead animate-up delay-1">
         At TwinRoots International, we bring the best of India to the world. We're a reliable, quality
-driven partner, committed to delivering exceptional fresh and frozen goods in a timely 
-manner. We believe in building lasting relationships by connecting global markets with the 
-rich bounty of India, ensuring every delivery meets our high standards for freshness and 
-quality.
+        driven partner, committed to delivering exceptional fresh and frozen goods in a timely 
+        manner. We believe in building lasting relationships by connecting global markets with the 
+        rich bounty of India, ensuring every delivery meets our high standards for freshness and 
+        quality.
       </p>
       <div class="cta-row animate-up delay-2">
         <a href="services.html" class="btn">Explore Services</a>
@@ -52,30 +63,27 @@ quality.
     </div>
     <div class="hero-image"></div>
   </section>
-  
 
- <!-- Quick Highlights -->
-<section class="section">
-  <div class="container grid-3">
-    <div class="card animate-fade">
-      <div class="card-icon"></div>
-      <h3>1. Export Solutions</h3>
-      <p>Supplying high-quality fresh and frozen Indian produce to international markets.</p>
+  <!-- Quick Highlights -->
+  <section class="section">
+    <div class="container grid-3">
+      <div class="card animate-fade">
+        <div class="card-icon"></div>
+        <h3>1. Export Solutions</h3>
+        <p>Supplying high-quality fresh and frozen Indian produce to international markets.</p>
+      </div>
+      <div class="card animate-fade delay-1">
+        <div class="card-icon"></div>
+        <h3>2. Import Sourcing</h3>
+        <p>Bringing globally traded goods into India with reliable vendor networks.</p>
+      </div>
+      <div class="card animate-fade delay-2">
+        <div class="card-icon"></div>
+        <h3>3. Custom Trade Assistance</h3>
+        <p>From packaging to shipping coordination, we ensure smooth logistics and compliance.</p>
+      </div>
     </div>
-    <div class="card animate-fade delay-1">
-      <div class="card-icon"></div>
-      <h3>2. Import Sourcing</h3>
-      <p>Bringing globally traded goods into India with reliable vendor networks.</p>
-    </div>
-    <div class="card animate-fade delay-2">
-      <div class="card-icon"></div>
-      <h3>3. Custom Trade Assistance</h3>
-      <p>From packaging to shipping coordination, we ensure smooth logistics and 
-        compliance.</p>
-    </div>
-  </div>
-</section>
-
+  </section>
 
   <!-- Featured Services -->
   <section class="section alt">
@@ -96,14 +104,14 @@ quality.
         <div class="card hover-up animate-fade delay-1">
           <img src="PRODUCT INTEGRITY.jpg" alt="Air Freight" />
           <div class="card-body">
-            <h3>Product Integrity </h3>
+            <h3>Product Integrity</h3>
             <p>Ensuring the integrity of your products, from source to destination.</p>
           </div>
         </div>
         <div class="card hover-up animate-fade delay-2">
           <img src="RELIABILTY & TRUST.jpg" alt="Customs & Compliance" />
           <div class="card-body">
-            <h3>Reliability & Trust </h3>
+            <h3>Reliability & Trust</h3>
             <p>Competitive pricing, transparent dealings and on-time delivery, every time.</p>
           </div>
         </div>
@@ -125,7 +133,7 @@ quality.
     <div class="container footer-grid">
       <div>
         <div class="brand footer-brand">
-          <span class="logo-mark">TR</span>
+          <img src="LOGO.png" alt="Twin Roots International Logo" class="logo-img" />
           <span class="brand-text">Twin Roots International</span>
         </div>
         <p class="muted">Import–Export & Logistics Solutions</p>
@@ -143,8 +151,8 @@ quality.
       <div>
         <h4>Contact</h4>
         <ul class="footer-links">
-          <li><a href="mailto:hello@twinroots.example">Sales@twinroots.co.in</p>
-          <li><a href="tel:+910000000000">+91 7397951100</a></li>
+          <li><a href="mailto:Sales@twinroots.co.in">Sales@twinroots.co.in</a></li>
+          <li><a href="tel:+917397951100">+91 7397951100</a></li>
           <li>Pune</li>
         </ul>
       </div>
@@ -153,6 +161,11 @@ quality.
       <p>© <span id="year"></span> Twin Roots International. All rights reserved.</p>
     </div>
   </footer>
+
+  <script>
+    // Auto-update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
   <script src="main.js"></script>
 </body>
