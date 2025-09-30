@@ -12,7 +12,10 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html"><span class="logo-mark">TR</span><span class="brand-text">Twin Roots International</span></a>
+      <a class="brand" href="index.html">
+        <img src="LOGO.png" alt="Twin Roots International Logo" class="logo" />
+        <span class="brand-text">Twin Roots International</span>
+      </a>
       <nav class="nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -79,5 +82,10 @@
       <p>© <span id="year"></span> Twin Roots International. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Optional: Script to auto-update year -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
